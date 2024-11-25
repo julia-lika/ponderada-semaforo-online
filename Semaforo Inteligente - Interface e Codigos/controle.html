@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Intensidade do LDR</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    h1 {
+      color: #333;
+    }
+    input[type="range"] {
+      width: 80%;
+      margin: 20px 0;
+    }
+    .intensity {
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.2em;
+      }
+      .intensity {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+  <script>
+    function sendLdrValue() {
+      const slider = document.getElementById("ldrSlider");
+      const value = slider.value;
+
+      // Atualiza o valor exibido
+      document.getElementById("ldrValue").textContent = value;
+
+      // Envia o valor para o ESP32
+      fetch(`http://192.168.0.27/setLdr?value=${value}`)
+        .then(response => response.text())
+        .then(data => {
+          console.log("Resposta do ESP32:", data);
+        })
+        .catch(error => console.error("Erro ao enviar valor:", error));
+    }
+
+    function setMode(mode) {
+      fetch(`http://192.168.0.27/setMode?mode=${mode}`)
+        .then(response => response.text())
+        .then(data => {
+          console.log("Resposta do ESP32:", data);
+          alert(data); // Exibe um alerta com a resposta do ESP32
+        })
+        .catch(error => console.error("Erro ao definir modo:", error));
+    }
+  </script>
+</head>
+<body>
+  <h1>Controle de Intensidade do LDR</h1>
+  <p>Ajuste a intensidade do LDR usando o controle abaixo:</p>
+  
+  <input type="range" id="ldrSlider" min="0" max="2000" value="1000" oninput="sendLdrValue()">
+  <div class="intensity">Intensidade: <span id="ldrValue">1000</span></div>
+
+  <button onclick="setMode('simulation')">Ativar Modo Simulação</button>
+  <button onclick="setMode('real')">Ativar Modo Real</button>
+</body>
+</html>
