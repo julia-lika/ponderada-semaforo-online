@@ -137,7 +137,6 @@ Todo esse trabalho foi feito ao decorrer de duas semanas. Abaixo você pode conf
   <img src="Primeira versão/4.jpeg" width="400"><br>
   <em>Figura 4: Produzida pelos autores (2024)</em>
 </p>
----
 
 ## Autores 
 [Bernardo Meirelles](https://www.linkedin.com/in/bernardofmeirelles/)
