@@ -66,7 +66,7 @@ Para o segundo semáforo, replicamos o uso das portas para os leds e não necess
 
 ---
 
-## 🚀 Como Rodar o Projeto
+## Como Rodar o Projeto
 
 1. **Configurar o Ambiente de Desenvolvimento:**
    - Instale o [Arduino IDE](https://www.arduino.cc/en/software).
@@ -118,11 +118,25 @@ Todas estas coisas citadas podem ser observadas através dos vídeos de demonstr
 
 Todo esse trabalho foi feito ao decorrer de duas semanas. Abaixo você pode conferir algumas imagens da primeira versão do projeto, ainda na protoboard. 
 
-<img src="Primeira versão\1.jpeg">
-<img src="Primeira versão\2.jpeg">
-<img src="Primeira versão\3.jpeg">
-<img src="Primeira versão\4.jpeg">
+<p align="center">
+  <img src="Primeira versão/1.jpeg" width="400"><br>
+  <em>Figura 1: Produzida pelos autores (2024)</em>
+</p>
 
+<p align="center">
+  <img src="Primeira versão/2.jpeg" width="400"><br>
+  <em>Figura 2: Produzida pelos autores (2024)</em>
+</p>
+
+<p align="center">
+  <img src="Primeira versão/3.jpeg" width="400"><br>
+  <em>Figura 3: Produzida pelos autores (2024)</em>
+</p>
+
+<p align="center">
+  <img src="Primeira versão/4.jpeg" width="400"><br>
+  <em>Figura 4: Produzida pelos autores (2024)</em>
+</p>
 ---
 
 ## Autores 
