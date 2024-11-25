@@ -110,6 +110,6 @@ Para o segundo semáforo, replicamos o uso das portas para os leds e não necess
 
 Todas estas coisas citadas podem ser observadas através dos vídeos de demonstração, que podem ser acessados pelo seguinte link:
 
-([Drive]([https://www.hivemq.com/](https://drive.google.com/drive/folders/1ndNf0GCn0g66sDceawAxodwj5g5HO9kM?usp=sharing)))
+[Drive](https://drive.google.com/drive/folders/1ndNf0GCn0g66sDceawAxodwj5g5HO9kM?usp=sharing)
 
 ---
