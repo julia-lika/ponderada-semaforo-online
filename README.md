@@ -113,3 +113,14 @@ Todas estas coisas citadas podem ser observadas através dos vídeos de demonstr
 [Drive](https://drive.google.com/drive/folders/1ndNf0GCn0g66sDceawAxodwj5g5HO9kM?usp=sharing)
 
 ---
+
+## Imagens
+
+Todo esse trabalho foi feito ao decorrer de duas semanas. Abaixo você pode conferir algumas imagens da primeira versão do projeto, ainda na protoboard. 
+
+<img src="./1.jpeg">
+<img src="./2.jpeg">
+<img src="./3.jpeg">
+<img src="./4.jpeg">
+
+---
