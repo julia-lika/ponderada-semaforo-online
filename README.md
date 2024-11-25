@@ -3,15 +3,15 @@
 Este projeto implementa semáforos inteligentes usando ESP32, sensores de luz (LDR), e comunicação via MQTT. Nosso projeto é capaz de alternar entre modos dia e noite, se comunicar com outros semáforos em tempo real e interagir com uma plataforma online, criada em HTML, pelo grupo. 
 
 ## Índice
-1. [Objetivos do Projeto](#objetivos-do-projeto)
-2. [Materiais](#materiais)
-3. [Conexões](#conexões)
-4. [Funcionalidades](#funcionalidades)
-5. [Como Rodar o Projeto](#como-rodar-o-projeto)
-6. [Interface HTML](#interface-html)
-7. [Demonstração](#demonstração)
-8. [Imagens](#imagens)
-9. [Autores](#autores)
+ [Objetivos do Projeto](#objetivos-do-projeto)
+ [Materiais](#materiais)
+ [Conexões](#conexões)
+ [Funcionalidades](#funcionalidades)
+ [Como Rodar o Projeto](#como-rodar-o-projeto)
+ [Interface HTML](#interface-html)
+ [Demonstração](#demonstração)
+ [Imagens](#imagens)
+ [Autores](#autores)
 
 ## Objetivos do Projeto
 
