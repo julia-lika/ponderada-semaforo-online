@@ -118,10 +118,10 @@ Todas estas coisas citadas podem ser observadas através dos vídeos de demonstr
 
 Todo esse trabalho foi feito ao decorrer de duas semanas. Abaixo você pode conferir algumas imagens da primeira versão do projeto, ainda na protoboard. 
 
-<img src="./1.jpeg">
-<img src="./2.jpeg">
-<img src="./3.jpeg">
-<img src="./4.jpeg">
+<img src="Primeira versão\1.jpeg">
+<img src="Primeira versão\2.jpeg">
+<img src="Primeira versão\3.jpeg">
+<img src="Primeira versão\4.jpeg">
 
 ---
 
