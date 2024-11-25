@@ -124,3 +124,11 @@ Todo esse trabalho foi feito ao decorrer de duas semanas. Abaixo você pode conf
 <img src="./4.jpeg">
 
 ---
+
+## Autores 
+[Bernardo Meirelles](https://www.linkedin.com/in/bernardofmeirelles/)
+[Fernando Oliveira](https://www.linkedin.com/in/fernando-soares-oliveira/)
+[Julia Alves](https://www.linkedin.com/in/j%C3%BAlia-alvesdejesus/)
+[Julia Ishikawa](https://www.linkedin.com/in/julia-lika-ishikawa/)
+[Tainá Cortez](https://www.linkedin.com/in/tainacortez/)
+[Larissa Temoteo](https://www.linkedin.com/in/larissa-temoteo/)
